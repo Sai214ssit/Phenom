@@ -46,7 +46,7 @@ public static boolean tc5() {
 
             System.out.println(tc1());
             System.out.println(tc2());
-            //System.out.println(tc3());
+            System.out.println(tc3());
             System.out.println(tc4());
             System.out.println(tc5());
     }
