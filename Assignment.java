@@ -41,7 +41,12 @@ public static boolean tc5() {
     String result = toUpperCase(input);
     return result.equals(expected);
 }
-
+public static boolean tc6() {
+    String input="   pRudhVI";
+    String expected="   PRUDHVI";
+    String result = toUpperCase(input);
+    return result.equals(expected);
+}
     public static void main(String[] args) {
 
             System.out.println(tc1());
@@ -49,5 +54,6 @@ public static boolean tc5() {
             System.out.println(tc3());
             System.out.println(tc4());
             System.out.println(tc5());
+            System.out.println(tc6());
     }
 }
